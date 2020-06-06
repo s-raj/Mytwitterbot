@@ -132,34 +132,23 @@ If anything was worth doing, it would've already been done.
 Corollary: Nothing is worth doing.
 You can do anything except light a paper match on a marshmallow under water
 Ants will always infest the nearest food cupboard.
-Long's Law
-Those who know the least will always know it the loudest.
-McFalls' Maxim
-No degree of acceptance can ever change the facts.
+Long's Law Those who know the least will always know it the loudest.
+McFalls' Maxim No degree of acceptance can ever change the facts.
 Translation: You may come to terms with being screwed, but nevertheless you're still screwed.
-Hunter's Corollary to Murphy's Law:
-Things always go from bad to worse.
-Hunter's Observation on Beauty:
-Beauty is only skin deep, fashion even shallower.
-Hunter's Observation on Experts:
-An expert is someone with an opinion and a word processor.
-Hunter's Observation on Sugarcoating:
-All pornography is air-brushed or computer-enhanced.
-Hunter's Observation on hypocrites:
-A person without values or standards can never be a hypocrite.
-Hunter's Observation on Education and Oz:
-"We can give you a diploma, but we can't give you a brain."
-Sgt. Murphy's Law
-Don't get into a pissing contest with a skunk.
-The Law of Stupid Tricks
-Just because you CAN do something doesn't mean you SHOULD.
+Hunter's Corollary to Murphy's Law: Things always go from bad to worse.
+Hunter's Observation on Beauty: Beauty is only skin deep, fashion even shallower.
+Hunter's Observation on Experts: An expert is someone with an opinion and a word processor.
+Hunter's Observation on Sugarcoating: All pornography is air-brushed or computer-enhanced.
+Hunter's Observation on hypocrites: A person without values or standards can never be a hypocrite.
+Hunter's Observation on Education and Oz: "We can give you a diploma, but we can't give you a brain."
+Sgt. Murphy's Law Don't get into a pissing contest with a skunk.
+The Law of Stupid Tricks Just because you CAN do something doesn't mean you SHOULD.
 Garbage abhors a vacuum. It will grow to fill available space.
 Corollary: The more space you have, the more junk you'll have.
 Paper is always strongest at the perforation.
 Things are never as good as they are bad.
 Chaos always wins, because it's better organized.
-The Wingwalker's Rule:
-Don't let go of something until you have a hold of something else.
+The Wingwalker's Rule: Don't let go of something until you have a hold of something else.
 A bird in the hand is messy.
 The mud that won't come off on the doormat immediately adheres to the carpet.
 When you wear new shoes for the first time, everyone will step on them.
@@ -167,11 +156,9 @@ If Murphy's law is correct, everything East of the San Andreas Fault will slide 
 If Murphy's Law can go wrong it will.
 Cheer up, the worst is yet to come...
 If at first you don't succeed destroy all evidence that you ever tried.
-Mrs. Murphy's Law:
-If anything can go wrong it will go wrong when Mr. Murphy is out of town....
+Mrs. Murphy's Law: If anything can go wrong it will go wrong when Mr. Murphy is out of town....
 If all else fails, hit it with a big hammer.
-Warneke Law
-You cannot force Murphy's Law to happen and you can't use it in reverse.
+Warneke Law You cannot force Murphy's Law to happen and you can't use it in reverse.
 When something goes wrong, you cannot find the solution in the instruction booklet, but someone else always does.
 Everything in life is important, important things are simple, simple things are never easy.
 Think about it, complete the circle.
@@ -179,26 +166,16 @@ It takes forever to learn the rules and once you've learned them they change aga
 The optimist proclaims that we live in the best of all possible worlds,
 the pessimist fears this is true.
 You will find an easy way to do it, after you've finished doing it.
-Hofstadter's Law:
-It always takes longer than you think, even when you take into account Hofstadter's Law.
+Hofstadter's Law: It always takes longer than you think, even when you take into account Hofstadter's Law.
 In Las Vegas, wherever you want to go in a casino, it's as far as possible from where you are, no matter where you are.
-The wind will always blow opposite to your hairdo
-Wind velocity increases directly with the cost of the hairdo.
+The wind will always blow opposite to your hairdo Wind velocity increases directly with the cost of the hairdo.
 The probability of the toast landing peanut-butter-side-down is directly proportionate to the cost of the carpeting.
 Laundry Math:1 Washer + 1 Dryer + 2 Socks = 1 Sock
-Window polishing:
-It's always on the other side.
-Hall's Law:
-Anyone who isn't paranoid simply isn't paying attention.
-(Another) Hall's Law
-Minor problem isn't.
+Window polishing:It's always on the other side.
+Hall's Law: Anyone who isn't paranoid simply isn't paying attention.
 A valuable falling in a hard to reach place will be exactly at the distance of the tip of your fingers.
 If a valuable falls in a hard to reach place at a distance shorter than the tip of your finger, as soon as you try to reach it you'll push it to that distance.
-If it looks good,
-And it taste good,
-And it feels good,
-There has got to be something wrong some where,
-So be careful.
+If it looks good, And it taste good, And it feels good, There has got to be something wrong some where, So be careful.
 Two heads are better than one, even if one is a sheep head.
 The probability of rain is inversely proportional to the size of the umbrella you carry around with you all day.
 No matter how hard you try, every once in a while, something is going right.
@@ -211,13 +188,9 @@ Conclusion to the Law of Conservation of Filth:
 It is possible for everything to get dirty and nothing to get clean.
 The file you are looking for is always at the bottom of the largest pile.
 Nothing is impossible for the man who doesn't have to do it himself.
-Gumperson's Law:
-The likelihood of something happening is in inverse proportion to the desirability of it happening.
-Uffelman's Razor:
-[Given Murphy's law, ...] One should not attribute to evil design any unfortunate result which can be attributed to error. A mistake (or series of mistakes) is the simpler and more likely explanation.
-Conspiracy Corollary to Uffelman's Razor:
-Nothing should be attributed to conspiracy that can be explained by error or a succession of errors.
-
+Gumperson's Law: The likelihood of something happening is in inverse proportion to the desirability of it happening.
+Uffelman's Razor: [Given Murphy's law, ...] One should not attribute to evil design any unfortunate result which can be attributed to error. A mistake (or series of mistakes) is the simpler and more likely explanation.
+Conspiracy Corollary to Uffelman's Razor: Nothing should be attributed to conspiracy that can be explained by error or a succession of errors.
 Example 1: The alleged conspiracy to "fake" the Apollo moon landing.
 Such an undertaking would be so likely to result in multiple glitches that it would be nearly impossible to pull off. Thus, conspiracy is an unlikely explanation of events. Accordingly, the "evidence" of the "faked" landing is more likely a result of the errors of those interpreting the evidence than of the evil design of the alleged conspirators.
 Example 2: The Warren Report.
@@ -763,23 +736,11 @@ Kamin's Third Law
 Combined total taxation from all levels of government will
 always increase (until the government is replaced by war or
 revolution).
-Kamin's Fourth Law
-Government inflation is always worse than statistics indicate;
-central bankers are biased toward inflation when the money unit is
-non-convertible, and without gold or silver backing.
-Kamin's Fifth Law
-Purchasing power of currency is always lost far more rapidly
-than ever regained. (Those who expect even fluctuations in both
-directions play a losing game.)
-Kamin's Sixth Law
-When attempting to predict and forcast macro-economic moves or
-economic legislation by a politician, never be misled by what he
-says; instead watch what he does.
-Kamin's Seventh Law
-Politicians will always inflate when given the opportunity.
-Katz's Law
-Men and nations will act rationally when all other
-possibilities have been exhausted.
+Kamin's Fourth Law Government inflation is always worse than statistics indicate; central bankers are biased toward inflation when the money unit is non-convertible, and without gold or silver backing.
+Kamin's Fifth Law Purchasing power of currency is always lost far more rapidly than ever regained. (Those who expect even fluctuations in both directions play a losing game.)
+Kamin's Sixth Law When attempting to predict and forcast macro-economic moves or economic legislation by a politician, never be misled by what he says; instead watch what he does.
+Kamin's Seventh Law Politicians will always inflate when given the opportunity.
+Katz's Law Men and nations will act rationally when all other possibilities have been exhausted.
 Kerr-Martin Law
 1) In dealing with their OWN problems, faculty members are the
 most extreme conservatives.
