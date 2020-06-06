@@ -22,13 +22,13 @@ class MyStreamer(TwythonStreamer):
                  temp = os.popen("vcgencmd measure_temp").readline() 
                  message = '@' + user + temp
                elif tweettext.find('CMD_RANDOMTWEET') != -1 :
-                 filename = open('tweet.txt','r') 
+                 filename = open('/home/pi/Documents/Myjobs/Mytwitterbot/tweet.txt','r') 
                  tweettext = filename.readlines() 
                  filename.close()
                  n = random.randint(0,1000)
                  for x in range(3): #Will only write first 5 lines
                    n = random.randint(0,1000)
-                   twitter.update_status(status='@' + user + tweettext[n],in_reply_to_status_id=data['id'])
+                   twitter.update_status(status='@' + user + ' ' + tweettext[n],in_reply_to_status_id=data['id'])
                    time.sleep(5) # Sleep for 15 seconds 
                  message = '@' + user + ' CMD_RANDOMTWEET completed'
             twitter.update_status(status=message,in_reply_to_status_id=data['id'])
