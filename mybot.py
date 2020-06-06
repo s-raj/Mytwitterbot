@@ -30,7 +30,7 @@ class MyStreamer(TwythonStreamer):
                    n = random.randint(0,1000)
                    twitter.update_status(status='@' + user + tweettext[n],in_reply_to_status_id=data['id'])
                    time.sleep(5) # Sleep for 15 seconds 
-                 message = 'CMD_RANDOMTWEET completed'
+                 message = '@' + user + ' CMD_RANDOMTWEET completed'
             twitter.update_status(status=message,in_reply_to_status_id=data['id'])
             #print("Tweeted: {}".format(message))
 
