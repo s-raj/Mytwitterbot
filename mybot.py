@@ -20,7 +20,7 @@ class MyStreamer(TwythonStreamer):
                #print("This is sharat's tweet")
                if tweettext.find('CMD_CORETEMP') != -1 :
                  temp = os.popen("vcgencmd measure_temp").readline() 
-                 message = '@' + user + temp
+                 message = '@' + user + ' '+ temp
                elif tweettext.find('CMD_RANDOMTWEET') != -1 :
                  filename = open('/home/pi/Documents/Myjobs/Mytwitterbot/tweet.txt','r') 
                  tweettext = filename.readlines() 
