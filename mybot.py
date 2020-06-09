@@ -38,17 +38,20 @@ class MyStreamListener(tweepy.StreamListener):
             try:
                 tweet.favorite()
             except Exception as e:
-                logger.error("Error on fav", exc_info=True)
+                if (LOGLVL >= 0):
+                  logger.error("Error on fav", exc_info=True)
         if not tweet.retweeted:
             # Retweet, since we have not retweeted it yet
             try:
                 #tweet.retweet()
-                print(tweet.text)		
+                pass		
             except Exception as e:
-                logger.error("Error on fav and retweet", exc_info=True)
+                if (LOGLVL >= 0):
+                  logger.error("Error on fav and retweet", exc_info=True)
 
   def on_error(self, status_code):
-     print("Error detected")
+     if (LOGLVL >= 0):
+       print("Error detected")
      if status_code == 420:
        #returning False in on_data disconnects the stream
        if (LOGLVL >= 0):
@@ -59,15 +62,16 @@ def verifyauth():
   global api
   try:
     api.verify_credentials()
-    print("Authentication OK")
+    if (LOGLVL >= 2):
+      print("Authentication OK")
   except:
-    print("Error during authentication")
+    if (LOGLVL >= 0):
+      print("Error during authentication")
 
 def replyDirectMsg():
-  print ("Reply direct message")
   global api
   verifyauth()
-  currenttimestamp = 1591563577493
+  currenttimestamp = 1591574082801
   while True:
      try:
        last_dms = api.list_direct_messages(1)
@@ -75,11 +79,20 @@ def replyDirectMsg():
        for messages in last_dms:
          if (int(messages.created_timestamp) > int(currenttimestamp)) :
             currenttimestamp = int(messages.created_timestamp)
-            print(messages.message_create['message_data']['text'])
+            #print(messages.message_create['message_data']['text'])
             message = "Hello, This is an automated reply. Will get back to you soon! Regards Sharat " + str(currenttimestamp)
             senderid = messages.message_create['sender_id']
             if (senderid != TWITTER_SENDER_ID):
-              api.send_direct_message(senderid, message)
+              #api.send_direct_message(senderid, message)
+              pass
+       new_followers = api.followers()
+       for follower in new_followers:
+         newDM = "Thanks for following. Regards Sharat"
+         print(follower.id)
+         if (follower.following == False):
+           userid = follower.id
+           api.send_direct_message(userid, newDM)
+
      except:
        if(LOGLVL >= 0):
           print("TWITTER BOT: Unexpected Error" , sys.exc_info()[0])
@@ -97,7 +110,6 @@ def random_line(fileName, default=None):
     return line
 
 def randomTweet():
-  print ("Random Tweet")
   global api
   verifyauth()
   while True:
@@ -106,7 +118,6 @@ def randomTweet():
       nextTweet = startTime.replace(day = startTime.day, hour = RANDOM_TWEET_HOUR, minute = RANDOM_TWEET_MINUTE, second = RANDOM_TWEET_SEC, microsecond = RANDOM_TWEET_MSEC) + timedelta(days=RANDOM_TWEET_DAYS)
       deltaTime = nextTweet - startTime
       sleepTime = deltaTime.total_seconds()
-      
       with open(os.path.join(os.path.dirname(__file__), RANDOM_TWEET_TXT_FILE)) as file:
         line =  random_line(file)
         if(LOGLVL >= 2):
@@ -122,20 +133,20 @@ def randomTweet():
       sleep(sleepTime)
 
 def handleTweetMentions():
-  print("Handle tweet mentions")
   global api
   myStreamListener = MyStreamListener(api)
   myStream = tweepy.Stream(auth = api.auth, listener=MyStreamListener(api))
   myStream.filter(track=['@__SHARATRAJ__'])
-  print ("TWITTER BOT: Stream object created. ")
+  if (LOGLVL >= 0):
+    print ("TWITTER BOT: Stream object created. ")
 
 
 def main():
-  handleTweetThread = Thread(target=handleTweetMentions)
-  handleTweetThread.start()
+  #handleTweetThread = Thread(target=handleTweetMentions)
+  #handleTweetThread.start()
 
-  randomTweetThread = Thread(target=randomTweet)
-  randomTweetThread.start()
+  #randomTweetThread = Thread(target=randomTweet)
+  #randomTweetThread.start()
 
   replyDirMsgThread = Thread(target=replyDirectMsg)
   replyDirMsgThread.start()
@@ -144,8 +155,8 @@ def main():
   End of execution... Join threads
   '''
   handleTweetThread.join()
-  randomTweetThread.join()
-  replyDirMsgThread.join()
+  #randomTweetThread.join()
+  #replyDirMsgThread.join()
 
 if __name__=='__main__':
   main()
